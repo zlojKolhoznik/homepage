@@ -224,6 +224,10 @@ body {
     margin-bottom: 20px;
 }
 
+.bullet-list {
+    list-style-position: inside;
+}
+
 .additional-info__education-header {
     color: var(--secondary-text-color);
     text-align: left;
