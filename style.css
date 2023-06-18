@@ -224,10 +224,6 @@ body {
     margin-bottom: 20px;
 }
 
-.bullet-list {
-    list-style-position: inside;
-}
-
 .additional-info__education-header {
     color: var(--secondary-text-color);
     text-align: left;
@@ -263,4 +259,22 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.additional-info__hobbies, .additional-info__wants, .additional-info__qualities {
+    margin-bottom: 25px;
+}
+
+.additional-info__hobbies-header, .additional-info__wants-header, .additional-info__qualities-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__hobbies-item, .additional-info__wants-item, .additional-info__qualities-item {
+    color: var(--secondary-text-color);
+}
+
+.bullet-list {
+    list-style-position: inside;
 }
