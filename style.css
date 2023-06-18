@@ -157,6 +157,17 @@ body {
     text-align: justify;
 }
 
+.skills__wrapper {
+    display: flex;
+    flex: 1 1 40%;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.skills__wrapper ul:not(:last-child) {
+    margin-right: 30px;
+}
+
 .skills__header {
     color: var(--secondary-text-color);
     text-align: center;
